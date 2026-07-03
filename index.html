@@ -15,9 +15,12 @@
   <body>
     <div class="app">
       <header class="app-header">
-        <p class="eyebrow">People Team</p>
-        <h1>Expense Tracker</h1>
-        <p class="app-subtitle" id="dateRange"></p>
+        <div>
+          <p class="eyebrow">People Team</p>
+          <h1>Expense Tracker</h1>
+          <p class="app-subtitle" id="dateRange"></p>
+        </div>
+        <button class="btn-primary" id="openAddExpense" type="button">+ Add Expense</button>
       </header>
 
       <main class="dashboard" id="dashboard">
@@ -59,6 +62,43 @@
       </main>
 
       <p class="source-caption" id="sourceCaption">Source: backend/expenses.json</p>
+    </div>
+
+    <div class="modal-overlay" id="modalOverlay" hidden>
+      <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-header">
+          <h2 id="modalTitle">Add Expense</h2>
+          <button class="modal-close" id="closeAddExpense" type="button" aria-label="Close">✕</button>
+        </div>
+        <form id="addExpenseForm">
+          <label class="field">
+            <span>Expense name</span>
+            <input type="text" id="expenseName" required maxlength="80" placeholder="e.g. Grocery Shopping" />
+          </label>
+
+          <label class="field">
+            <span>Amount (₹)</span>
+            <input type="number" id="expenseAmount" required min="0.01" step="0.01" placeholder="0.00" />
+          </label>
+
+          <label class="field">
+            <span>Category</span>
+            <select id="expenseCategory" required></select>
+          </label>
+
+          <label class="field">
+            <span>Date</span>
+            <input type="date" id="expenseDate" required />
+          </label>
+
+          <p class="field-error" id="formError" hidden></p>
+
+          <div class="modal-actions">
+            <button type="button" class="btn-secondary" id="cancelAddExpense">Cancel</button>
+            <button type="submit" class="btn-primary">Save Expense</button>
+          </div>
+        </form>
+      </div>
     </div>
 
     <script src="src/app.js"></script>

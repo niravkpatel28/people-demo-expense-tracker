@@ -1,4 +1,5 @@
 const DATA_URL = "backend/expenses.json";
+const LOCAL_STORAGE_KEY = "expense-tracker:local-expenses";
 
 const CATEGORY_COLORS = {
   Food: "#AC75FF",
@@ -38,6 +39,16 @@ const els = {
   trendChart: document.getElementById("trendChart"),
   categoryChart: document.getElementById("categoryChart"),
   transactionRows: document.getElementById("transactionRows"),
+  openAddExpense: document.getElementById("openAddExpense"),
+  modalOverlay: document.getElementById("modalOverlay"),
+  closeAddExpense: document.getElementById("closeAddExpense"),
+  cancelAddExpense: document.getElementById("cancelAddExpense"),
+  addExpenseForm: document.getElementById("addExpenseForm"),
+  expenseName: document.getElementById("expenseName"),
+  expenseAmount: document.getElementById("expenseAmount"),
+  expenseCategory: document.getElementById("expenseCategory"),
+  expenseDate: document.getElementById("expenseDate"),
+  formError: document.getElementById("formError"),
 };
 
 init();
@@ -46,7 +57,8 @@ async function init() {
   try {
     const res = await fetch(DATA_URL);
     if (!res.ok) throw new Error(`Request failed: ${res.status}`);
-    state.expenses = await res.json();
+    const remoteExpenses = await res.json();
+    state.expenses = [...remoteExpenses, ...loadLocalExpenses()];
     render();
   } catch (err) {
     els.totalAmount.textContent = "—";
@@ -57,6 +69,97 @@ async function init() {
   els.clearFilter.addEventListener("click", () => {
     state.selectedCategory = null;
     render();
+  });
+
+  setupAddExpenseModal();
+}
+
+function loadLocalExpenses() {
+  try {
+    return JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY)) || [];
+  } catch (err) {
+    console.error("Failed to read local expenses", err);
+    return [];
+  }
+}
+
+function saveLocalExpenses(expenses) {
+  localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(expenses));
+}
+
+function nextExpenseId() {
+  const maxId = state.expenses.reduce((max, e) => Math.max(max, e.expense_id || 0), 0);
+  return maxId + 1;
+}
+
+function escapeHtml(value) {
+  const div = document.createElement("div");
+  div.textContent = value;
+  return div.innerHTML;
+}
+
+function setupAddExpenseModal() {
+  els.expenseCategory.innerHTML = Object.keys(CATEGORY_COLORS)
+    .map((c) => `<option value="${c}">${c}</option>`)
+    .join("");
+
+  const today = new Date().toISOString().slice(0, 10);
+  els.expenseDate.max = today;
+  els.expenseDate.value = today;
+
+  const openModal = () => {
+    els.addExpenseForm.reset();
+    els.expenseDate.value = today;
+    els.formError.hidden = true;
+    els.modalOverlay.hidden = false;
+    els.expenseName.focus();
+  };
+
+  const closeModal = () => {
+    els.modalOverlay.hidden = true;
+  };
+
+  els.openAddExpense.addEventListener("click", openModal);
+  els.closeAddExpense.addEventListener("click", closeModal);
+  els.cancelAddExpense.addEventListener("click", closeModal);
+
+  els.modalOverlay.addEventListener("click", (evt) => {
+    if (evt.target === els.modalOverlay) closeModal();
+  });
+
+  document.addEventListener("keydown", (evt) => {
+    if (evt.key === "Escape" && !els.modalOverlay.hidden) closeModal();
+  });
+
+  els.addExpenseForm.addEventListener("submit", (evt) => {
+    evt.preventDefault();
+
+    const name = els.expenseName.value.trim();
+    const amount = parseFloat(els.expenseAmount.value);
+    const category = els.expenseCategory.value;
+    const date = els.expenseDate.value;
+
+    if (!name || !date || !(amount > 0) || !CATEGORY_COLORS[category]) {
+      els.formError.textContent = "Please fill in every field with a valid amount.";
+      els.formError.hidden = false;
+      return;
+    }
+
+    const newExpense = {
+      expense_id: nextExpenseId(),
+      name_of_expense: name,
+      category,
+      amount: Math.round(amount * 100) / 100,
+      date_of_expense: date,
+    };
+
+    const localExpenses = loadLocalExpenses();
+    localExpenses.push(newExpense);
+    saveLocalExpenses(localExpenses);
+
+    state.expenses.push(newExpense);
+    render();
+    closeModal();
   });
 }
 
@@ -276,7 +379,7 @@ function renderTable(expenses) {
       return `
         <tr>
           <td>${shortDateFormatter.format(new Date(e.date_of_expense))}</td>
-          <td class="col-name">${e.name_of_expense}</td>
+          <td class="col-name">${escapeHtml(e.name_of_expense)}</td>
           <td>
             <span class="category-tag">
               <span class="category-dot" style="background:${color};"></span>
