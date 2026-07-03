@@ -1,0 +1,702 @@
+[
+  {
+    "expense_id": 36,
+    "name_of_expense": "Health Checkup",
+    "category": "Medical",
+    "amount": 4856.84,
+    "date_of_expense": "2026-01-03"
+  },
+  {
+    "expense_id": 45,
+    "name_of_expense": "Food Delivery",
+    "category": "Food",
+    "amount": 1654.57,
+    "date_of_expense": "2026-01-05"
+  },
+  {
+    "expense_id": 5,
+    "name_of_expense": "Train Ticket",
+    "category": "Travel",
+    "amount": 2551.51,
+    "date_of_expense": "2026-01-07"
+  },
+  {
+    "expense_id": 58,
+    "name_of_expense": "Movie Tickets",
+    "category": "Entertainment",
+    "amount": 1183.26,
+    "date_of_expense": "2026-01-09"
+  },
+  {
+    "expense_id": 32,
+    "name_of_expense": "Dental Treatment",
+    "category": "Medical",
+    "amount": 500.0,
+    "date_of_expense": "2026-01-13"
+  },
+  {
+    "expense_id": 100,
+    "name_of_expense": "Fixed Deposit",
+    "category": "Investment",
+    "amount": 4531.42,
+    "date_of_expense": "2026-01-14"
+  },
+  {
+    "expense_id": 24,
+    "name_of_expense": "Concert Tickets",
+    "category": "Entertainment",
+    "amount": 4222.12,
+    "date_of_expense": "2026-01-15"
+  },
+  {
+    "expense_id": 77,
+    "name_of_expense": "Train Ticket",
+    "category": "Travel",
+    "amount": 1518.7,
+    "date_of_expense": "2026-01-15"
+  },
+  {
+    "expense_id": 34,
+    "name_of_expense": "School Supplies",
+    "category": "Education",
+    "amount": 2139.69,
+    "date_of_expense": "2026-01-17"
+  },
+  {
+    "expense_id": 55,
+    "name_of_expense": "Mutual Fund SIP",
+    "category": "Investment",
+    "amount": 1277.13,
+    "date_of_expense": "2026-01-17"
+  },
+  {
+    "expense_id": 48,
+    "name_of_expense": "Grocery Shopping",
+    "category": "Food",
+    "amount": 3672.94,
+    "date_of_expense": "2026-01-18"
+  },
+  {
+    "expense_id": 91,
+    "name_of_expense": "Water Bill",
+    "category": "Bill",
+    "amount": 4669.63,
+    "date_of_expense": "2026-01-18"
+  },
+  {
+    "expense_id": 88,
+    "name_of_expense": "Mobile Recharge",
+    "category": "Bill",
+    "amount": 1615.08,
+    "date_of_expense": "2026-01-19"
+  },
+  {
+    "expense_id": 69,
+    "name_of_expense": "Mobile Recharge",
+    "category": "Bill",
+    "amount": 1286.54,
+    "date_of_expense": "2026-01-20"
+  },
+  {
+    "expense_id": 3,
+    "name_of_expense": "Music Subscription",
+    "category": "Entertainment",
+    "amount": 4466.29,
+    "date_of_expense": "2026-01-23"
+  },
+  {
+    "expense_id": 4,
+    "name_of_expense": "Dental Treatment",
+    "category": "Medical",
+    "amount": 207.32,
+    "date_of_expense": "2026-01-24"
+  },
+  {
+    "expense_id": 10,
+    "name_of_expense": "Car Rental",
+    "category": "Travel",
+    "amount": 1716.14,
+    "date_of_expense": "2026-01-24"
+  },
+  {
+    "expense_id": 63,
+    "name_of_expense": "Workshop Fee",
+    "category": "Education",
+    "amount": 992.53,
+    "date_of_expense": "2026-01-25"
+  },
+  {
+    "expense_id": 17,
+    "name_of_expense": "Snacks",
+    "category": "Food",
+    "amount": 1202.31,
+    "date_of_expense": "2026-01-26"
+  },
+  {
+    "expense_id": 2,
+    "name_of_expense": "Train Ticket",
+    "category": "Travel",
+    "amount": 740.71,
+    "date_of_expense": "2026-01-27"
+  },
+  {
+    "expense_id": 41,
+    "name_of_expense": "Pharmacy Purchase",
+    "category": "Medical",
+    "amount": 2563.02,
+    "date_of_expense": "2026-01-28"
+  },
+  {
+    "expense_id": 96,
+    "name_of_expense": "Restaurant Dinner",
+    "category": "Food",
+    "amount": 1359.11,
+    "date_of_expense": "2026-01-28"
+  },
+  {
+    "expense_id": 49,
+    "name_of_expense": "Certification Exam",
+    "category": "Education",
+    "amount": 3840.88,
+    "date_of_expense": "2026-02-02"
+  },
+  {
+    "expense_id": 31,
+    "name_of_expense": "Fixed Deposit",
+    "category": "Investment",
+    "amount": 1135.64,
+    "date_of_expense": "2026-02-05"
+  },
+  {
+    "expense_id": 9,
+    "name_of_expense": "Gaming Purchase",
+    "category": "Entertainment",
+    "amount": 1734.24,
+    "date_of_expense": "2026-02-09"
+  },
+  {
+    "expense_id": 8,
+    "name_of_expense": "Maintenance Fee",
+    "category": "Bill",
+    "amount": 4353.04,
+    "date_of_expense": "2026-02-10"
+  },
+  {
+    "expense_id": 33,
+    "name_of_expense": "Online Course",
+    "category": "Education",
+    "amount": 806.56,
+    "date_of_expense": "2026-02-10"
+  },
+  {
+    "expense_id": 50,
+    "name_of_expense": "Gaming Purchase",
+    "category": "Entertainment",
+    "amount": 4736.9,
+    "date_of_expense": "2026-02-12"
+  },
+  {
+    "expense_id": 73,
+    "name_of_expense": "Workshop Fee",
+    "category": "Education",
+    "amount": 4517.09,
+    "date_of_expense": "2026-02-12"
+  },
+  {
+    "expense_id": 68,
+    "name_of_expense": "Dental Treatment",
+    "category": "Medical",
+    "amount": 743.9,
+    "date_of_expense": "2026-02-16"
+  },
+  {
+    "expense_id": 67,
+    "name_of_expense": "Online Course",
+    "category": "Education",
+    "amount": 1280.85,
+    "date_of_expense": "2026-02-18"
+  },
+  {
+    "expense_id": 98,
+    "name_of_expense": "Pharmacy Purchase",
+    "category": "Medical",
+    "amount": 3602.18,
+    "date_of_expense": "2026-02-22"
+  },
+  {
+    "expense_id": 72,
+    "name_of_expense": "Fuel Refill",
+    "category": "Travel",
+    "amount": 2453.92,
+    "date_of_expense": "2026-02-24"
+  },
+  {
+    "expense_id": 23,
+    "name_of_expense": "Rent Payment",
+    "category": "Bill",
+    "amount": 3456.4,
+    "date_of_expense": "2026-02-26"
+  },
+  {
+    "expense_id": 56,
+    "name_of_expense": "Electricity Bill",
+    "category": "Bill",
+    "amount": 2962.13,
+    "date_of_expense": "2026-02-28"
+  },
+  {
+    "expense_id": 59,
+    "name_of_expense": "Tuition Fee",
+    "category": "Education",
+    "amount": 400.74,
+    "date_of_expense": "2026-03-02"
+  },
+  {
+    "expense_id": 71,
+    "name_of_expense": "Doctor Consultation",
+    "category": "Medical",
+    "amount": 4846.53,
+    "date_of_expense": "2026-03-02"
+  },
+  {
+    "expense_id": 86,
+    "name_of_expense": "Bus Pass",
+    "category": "Travel",
+    "amount": 3595.15,
+    "date_of_expense": "2026-03-03"
+  },
+  {
+    "expense_id": 85,
+    "name_of_expense": "Health Insurance Premium",
+    "category": "Medical",
+    "amount": 2637.77,
+    "date_of_expense": "2026-03-08"
+  },
+  {
+    "expense_id": 28,
+    "name_of_expense": "Crypto Purchase",
+    "category": "Investment",
+    "amount": 2321.32,
+    "date_of_expense": "2026-03-09"
+  },
+  {
+    "expense_id": 40,
+    "name_of_expense": "Bakery Items",
+    "category": "Food",
+    "amount": 4385.47,
+    "date_of_expense": "2026-03-09"
+  },
+  {
+    "expense_id": 74,
+    "name_of_expense": "Mutual Fund SIP",
+    "category": "Investment",
+    "amount": 4927.28,
+    "date_of_expense": "2026-03-09"
+  },
+  {
+    "expense_id": 1,
+    "name_of_expense": "Movie Tickets",
+    "category": "Entertainment",
+    "amount": 173.8,
+    "date_of_expense": "2026-03-12"
+  },
+  {
+    "expense_id": 97,
+    "name_of_expense": "Amusement Park",
+    "category": "Entertainment",
+    "amount": 819.47,
+    "date_of_expense": "2026-03-14"
+  },
+  {
+    "expense_id": 16,
+    "name_of_expense": "Grocery Shopping",
+    "category": "Food",
+    "amount": 3323.25,
+    "date_of_expense": "2026-03-16"
+  },
+  {
+    "expense_id": 46,
+    "name_of_expense": "Coffee Shop",
+    "category": "Food",
+    "amount": 4399.67,
+    "date_of_expense": "2026-03-20"
+  },
+  {
+    "expense_id": 25,
+    "name_of_expense": "Car Rental",
+    "category": "Travel",
+    "amount": 208.9,
+    "date_of_expense": "2026-03-22"
+  },
+  {
+    "expense_id": 78,
+    "name_of_expense": "Lab Tests",
+    "category": "Medical",
+    "amount": 2733.87,
+    "date_of_expense": "2026-03-22"
+  },
+  {
+    "expense_id": 66,
+    "name_of_expense": "Movie Tickets",
+    "category": "Entertainment",
+    "amount": 350.03,
+    "date_of_expense": "2026-03-28"
+  },
+  {
+    "expense_id": 38,
+    "name_of_expense": "Tuition Fee",
+    "category": "Education",
+    "amount": 3854.56,
+    "date_of_expense": "2026-03-29"
+  },
+  {
+    "expense_id": 11,
+    "name_of_expense": "Mutual Fund SIP",
+    "category": "Investment",
+    "amount": 1826.95,
+    "date_of_expense": "2026-03-30"
+  },
+  {
+    "expense_id": 18,
+    "name_of_expense": "Fixed Deposit",
+    "category": "Investment",
+    "amount": 2294.38,
+    "date_of_expense": "2026-04-04"
+  },
+  {
+    "expense_id": 43,
+    "name_of_expense": "Health Insurance Premium",
+    "category": "Medical",
+    "amount": 1034.61,
+    "date_of_expense": "2026-04-06"
+  },
+  {
+    "expense_id": 13,
+    "name_of_expense": "Doctor Consultation",
+    "category": "Medical",
+    "amount": 4866.92,
+    "date_of_expense": "2026-04-07"
+  },
+  {
+    "expense_id": 22,
+    "name_of_expense": "Streaming Subscription",
+    "category": "Entertainment",
+    "amount": 858.84,
+    "date_of_expense": "2026-04-08"
+  },
+  {
+    "expense_id": 82,
+    "name_of_expense": "Bakery Items",
+    "category": "Food",
+    "amount": 4316.01,
+    "date_of_expense": "2026-04-14"
+  },
+  {
+    "expense_id": 64,
+    "name_of_expense": "Gaming Purchase",
+    "category": "Entertainment",
+    "amount": 1803.77,
+    "date_of_expense": "2026-04-16"
+  },
+  {
+    "expense_id": 51,
+    "name_of_expense": "Gas Bill",
+    "category": "Bill",
+    "amount": 4368.54,
+    "date_of_expense": "2026-04-19"
+  },
+  {
+    "expense_id": 92,
+    "name_of_expense": "Cab Fare",
+    "category": "Travel",
+    "amount": 1460.69,
+    "date_of_expense": "2026-04-23"
+  },
+  {
+    "expense_id": 39,
+    "name_of_expense": "Coffee Shop",
+    "category": "Food",
+    "amount": 2202.09,
+    "date_of_expense": "2026-04-27"
+  },
+  {
+    "expense_id": 12,
+    "name_of_expense": "Health Checkup",
+    "category": "Medical",
+    "amount": 4045.28,
+    "date_of_expense": "2026-04-28"
+  },
+  {
+    "expense_id": 35,
+    "name_of_expense": "Gold Investment",
+    "category": "Investment",
+    "amount": 2999.65,
+    "date_of_expense": "2026-04-30"
+  },
+  {
+    "expense_id": 62,
+    "name_of_expense": "Dental Treatment",
+    "category": "Medical",
+    "amount": 1252.84,
+    "date_of_expense": "2026-05-02"
+  },
+  {
+    "expense_id": 76,
+    "name_of_expense": "Amusement Park",
+    "category": "Entertainment",
+    "amount": 3326.26,
+    "date_of_expense": "2026-05-05"
+  },
+  {
+    "expense_id": 27,
+    "name_of_expense": "Concert Tickets",
+    "category": "Entertainment",
+    "amount": 1102.5,
+    "date_of_expense": "2026-05-08"
+  },
+  {
+    "expense_id": 79,
+    "name_of_expense": "Grocery Shopping",
+    "category": "Food",
+    "amount": 2941.68,
+    "date_of_expense": "2026-05-09"
+  },
+  {
+    "expense_id": 90,
+    "name_of_expense": "Grocery Shopping",
+    "category": "Food",
+    "amount": 2711.29,
+    "date_of_expense": "2026-05-10"
+  },
+  {
+    "expense_id": 99,
+    "name_of_expense": "Music Subscription",
+    "category": "Entertainment",
+    "amount": 4271.92,
+    "date_of_expense": "2026-05-10"
+  },
+  {
+    "expense_id": 80,
+    "name_of_expense": "Certification Exam",
+    "category": "Education",
+    "amount": 829.29,
+    "date_of_expense": "2026-05-11"
+  },
+  {
+    "expense_id": 54,
+    "name_of_expense": "Concert Tickets",
+    "category": "Entertainment",
+    "amount": 2218.6,
+    "date_of_expense": "2026-05-13"
+  },
+  {
+    "expense_id": 44,
+    "name_of_expense": "Books Purchase",
+    "category": "Education",
+    "amount": 2719.93,
+    "date_of_expense": "2026-05-16"
+  },
+  {
+    "expense_id": 21,
+    "name_of_expense": "Food Delivery",
+    "category": "Food",
+    "amount": 3193.14,
+    "date_of_expense": "2026-05-17"
+  },
+  {
+    "expense_id": 29,
+    "name_of_expense": "Train Ticket",
+    "category": "Travel",
+    "amount": 3737.7,
+    "date_of_expense": "2026-05-18"
+  },
+  {
+    "expense_id": 37,
+    "name_of_expense": "Music Subscription",
+    "category": "Entertainment",
+    "amount": 617.03,
+    "date_of_expense": "2026-05-18"
+  },
+  {
+    "expense_id": 60,
+    "name_of_expense": "Rent Payment",
+    "category": "Bill",
+    "amount": 2452.8,
+    "date_of_expense": "2026-05-19"
+  },
+  {
+    "expense_id": 89,
+    "name_of_expense": "Lunch with Colleagues",
+    "category": "Food",
+    "amount": 3124.74,
+    "date_of_expense": "2026-05-25"
+  },
+  {
+    "expense_id": 26,
+    "name_of_expense": "Fixed Deposit",
+    "category": "Investment",
+    "amount": 377.63,
+    "date_of_expense": "2026-05-26"
+  },
+  {
+    "expense_id": 47,
+    "name_of_expense": "Flight Ticket",
+    "category": "Travel",
+    "amount": 1242.31,
+    "date_of_expense": "2026-05-26"
+  },
+  {
+    "expense_id": 61,
+    "name_of_expense": "Bus Pass",
+    "category": "Travel",
+    "amount": 4680.8,
+    "date_of_expense": "2026-05-27"
+  },
+  {
+    "expense_id": 30,
+    "name_of_expense": "Rent Payment",
+    "category": "Bill",
+    "amount": 2943.7,
+    "date_of_expense": "2026-05-30"
+  },
+  {
+    "expense_id": 7,
+    "name_of_expense": "Dental Treatment",
+    "category": "Medical",
+    "amount": 1141.18,
+    "date_of_expense": "2026-05-31"
+  },
+  {
+    "expense_id": 81,
+    "name_of_expense": "Snacks",
+    "category": "Food",
+    "amount": 969.83,
+    "date_of_expense": "2026-06-02"
+  },
+  {
+    "expense_id": 83,
+    "name_of_expense": "Food Delivery",
+    "category": "Food",
+    "amount": 1268.77,
+    "date_of_expense": "2026-06-02"
+  },
+  {
+    "expense_id": 93,
+    "name_of_expense": "Certification Exam",
+    "category": "Education",
+    "amount": 3532.52,
+    "date_of_expense": "2026-06-06"
+  },
+  {
+    "expense_id": 14,
+    "name_of_expense": "Food Delivery",
+    "category": "Food",
+    "amount": 1501.23,
+    "date_of_expense": "2026-06-10"
+  },
+  {
+    "expense_id": 42,
+    "name_of_expense": "School Supplies",
+    "category": "Education",
+    "amount": 1527.3,
+    "date_of_expense": "2026-06-13"
+  },
+  {
+    "expense_id": 20,
+    "name_of_expense": "Rent Payment",
+    "category": "Bill",
+    "amount": 4686.44,
+    "date_of_expense": "2026-06-15"
+  },
+  {
+    "expense_id": 87,
+    "name_of_expense": "Mobile Recharge",
+    "category": "Bill",
+    "amount": 697.85,
+    "date_of_expense": "2026-06-15"
+  },
+  {
+    "expense_id": 70,
+    "name_of_expense": "PPF Contribution",
+    "category": "Investment",
+    "amount": 534.65,
+    "date_of_expense": "2026-06-16"
+  },
+  {
+    "expense_id": 65,
+    "name_of_expense": "Crypto Purchase",
+    "category": "Investment",
+    "amount": 318.15,
+    "date_of_expense": "2026-06-17"
+  },
+  {
+    "expense_id": 84,
+    "name_of_expense": "Food Delivery",
+    "category": "Food",
+    "amount": 455.82,
+    "date_of_expense": "2026-06-18"
+  },
+  {
+    "expense_id": 95,
+    "name_of_expense": "Certification Exam",
+    "category": "Education",
+    "amount": 1531.92,
+    "date_of_expense": "2026-06-19"
+  },
+  {
+    "expense_id": 94,
+    "name_of_expense": "School Supplies",
+    "category": "Education",
+    "amount": 2668.26,
+    "date_of_expense": "2026-06-20"
+  },
+  {
+    "expense_id": 19,
+    "name_of_expense": "Cab Fare",
+    "category": "Travel",
+    "amount": 1808.59,
+    "date_of_expense": "2026-06-21"
+  },
+  {
+    "expense_id": 53,
+    "name_of_expense": "Bus Pass",
+    "category": "Travel",
+    "amount": 1593.0,
+    "date_of_expense": "2026-06-21"
+  },
+  {
+    "expense_id": 52,
+    "name_of_expense": "Hotel Booking",
+    "category": "Travel",
+    "amount": 3788.56,
+    "date_of_expense": "2026-06-26"
+  },
+  {
+    "expense_id": 75,
+    "name_of_expense": "Workshop Fee",
+    "category": "Education",
+    "amount": 1461.98,
+    "date_of_expense": "2026-06-28"
+  },
+  {
+    "expense_id": 6,
+    "name_of_expense": "Pharmacy Purchase",
+    "category": "Medical",
+    "amount": 3594.3,
+    "date_of_expense": "2026-06-29"
+  },
+  {
+    "expense_id": 15,
+    "name_of_expense": "Health Checkup",
+    "category": "Medical",
+    "amount": 2907.89,
+    "date_of_expense": "2026-06-30"
+  },
+  {
+    "expense_id": 57,
+    "name_of_expense": "Pharmacy Purchase",
+    "category": "Medical",
+    "amount": 85.59,
+    "date_of_expense": "2026-07-01"
+  }
+]
